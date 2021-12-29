@@ -21,6 +21,7 @@ export default function LoginForm({ Login, error }) {
               type="email"
               name="email"
               id="email"
+              autoCapitalize="none"
               required
               onChange={(e) =>
                 setDetails({ ...details, email: e.target.value })
